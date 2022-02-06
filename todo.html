@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <!------first box-->
+    <div class="container">
+        <div class= "flex" >
+            <h2 class="title">Task List</h2>
+            <div class= "input">
+                <label for="label">New task</label>
+                <input type="text" id="label">
+                <input id = "add-task" type="submit" value="ADD TASK">
+            </div>
+        </div>
+    </div>
+    <!-------second box-------->
+    <div class="container">
+        <div class = "flex">
+            <h2 class= "title">Tasks</h2>
+            <div class= "filter">
+                <label for="2">Filter</label>
+                <input type="text" id = "2">
+            </div>
+            <ul class= "task-lists">
+            </ul>
+            <input class= "btn-black" type="submit" value="Clear Tasks">
+        </div>
+    </div>
+    <!-----scripts---->
+    <script src="todonew.js"></script>
+</body>
+</html>
